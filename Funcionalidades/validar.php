@@ -5,7 +5,7 @@ $password=$_POST['password'];
 $conexion=mysqli_connect("localhost","root","","desarrollo");
 $consulta="SELECT * FROM registro WHERE correo='correo' and password='password'";
 $resultado=mysqli_query($conexion,$consulta);
-print_r($_POST);
+//print_r($_POST);
 if (($correo=='administrador@ucc.com.co')&&($password=='administradorucc')) {
          header('Refresh: 1; URL=tregistrados.php');
 
