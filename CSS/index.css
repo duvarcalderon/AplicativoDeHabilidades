@@ -1,0 +1,10 @@
+body{
+    overflow-y: hidden;
+}
+.ContenidoPrincipal{
+    clear: both;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 0;
+    padding: 0;
+}

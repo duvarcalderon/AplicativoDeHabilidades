@@ -1,0 +1,16 @@
+.MenusButtons{
+    width: 75%;
+    height: 300px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: none;
+    
+}
+.MenusButtons img{
+    width: 99%;
+    height: 100%;
+    border-radius: 20px;
+}
+.MenusButtons i{
+    font-size: 25px;
+}
